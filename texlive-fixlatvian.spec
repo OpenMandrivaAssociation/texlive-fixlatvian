@@ -1,3 +1,9 @@
+# revision 21631
+# category Package
+# catalog-ctan /macros/xetex/latex/fixlatvian
+# catalog-date 2011-03-06 19:31:04 +0100
+# catalog-license lppl1.3
+# catalog-version 1a
 Name:		texlive-fixlatvian
 Version:	1a
 Release:	1
@@ -46,6 +52,7 @@ classes.
 #- source
 %doc %{_texmfdistdir}/source/xelatex/fixlatvian/fixlatvian.dtx
 %doc %{_texmfdistdir}/source/xelatex/fixlatvian/fixlatvian.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ classes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar makeindex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
