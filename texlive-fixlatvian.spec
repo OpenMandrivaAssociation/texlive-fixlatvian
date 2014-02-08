@@ -6,7 +6,7 @@
 # catalog-version 1a
 Name:		texlive-fixlatvian
 Version:	1a
-Release:	2
+Release:	3
 Summary:	Improve Latvian language support in XeLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/fixlatvian
