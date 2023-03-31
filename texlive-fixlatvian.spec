@@ -1,6 +1,6 @@
 Name:		texlive-fixlatvian
 Version:	21631
-Release:	1
+Release:	2
 Summary:	Improve Latvian language support in XeLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/fixlatvian
