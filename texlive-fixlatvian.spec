@@ -3,7 +3,7 @@ Version:	21631
 Release:	2
 Summary:	Improve Latvian language support in XeLaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/fixlatvian
+URL:		https://www.ctan.org/tex-archive/macros/xetex/latex/fixlatvian
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fixlatvian.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fixlatvian.doc.r%{version}.tar.xz
